@@ -1,4 +1,4 @@
-# repositoryname
+# Homebrew content for Aurora Builder
 additional content to extend [Aurora](https://aurorabuilder.com/), by novalore
 
 index url: https://raw.githubusercontent.com/novalore/aurora/master/user-novalore.index
