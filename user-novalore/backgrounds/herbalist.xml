@@ -3,7 +3,7 @@
 	<info>
 		<name>Herbalist Background</name>
 		<description>Basic background for a character interested in herbs and herbal remedies</description>
-		<update version="0.0.2">
+		<update version="0.0.3">
 			<file name="herbalist-background.xml" url="https://raw.githubusercontent.com/novalore/aurora/master/user-novalore/backgrounds/herbalist-background.xml" />
 		</update>
 	</info>
@@ -17,7 +17,7 @@
 				<li><strong>Languages:</strong> Druidic</li>
 				<li><strong>Equipment:</strong> Sickle (obsidian if the character is not allowed to usse metal), 2 candles, Scroll case with 5 pieces parchment or a notebook, common clothes, component pouch, herbalist kit, 2 vials (1 with either antitoxin or healing potion).</li>
 			</ul>
-			<div element="ID_NOVALORE_BACKGROUND_HERBALIST_FEATURE_A_DASH_OF_THIS_A_DOLLOP_OF_THAT" />
+			<div element="ID_NOVALORE_BACKGROUND_HERBALIST_FEATURE_A_DASH" />
 		</description>
 		<setters>
 			<set name="short">Nature, Survival, Herbalist Kit</set>
