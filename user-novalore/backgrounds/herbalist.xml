@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Herbalist Background</name>
+		<description>Basic background for a character interested in herbs and herbal remedies</description>
+		<update version="0.0.1">
+			<file name="herbalist-background.xml" url="https://raw.githubusercontent.com/novalore/aurora/master/user-novalore/backgrounds/herbalist-background.xml" />
+		</update>
+	</info>
+
+	<element name="Herbalist" type="Background" source="https://fullmoonstorytelling.com/" id="ID_NOVALORE_BACKGROUND_HERBALIST">
+		<description>
+			<p>Picking herbs from a backyard garden, a hot house, or a forest outside of town the herbalist collects natural items that aid and harm. An herbalist can heal, poison, invigorate. They know the powers of plants and fungi to change how humanoids and beasts experience the world.</p>
+			<ul>
+				<li><strong>Skill Proficiencies:</strong> Nature, Survival</li>
+				<li><strong>Tool Proficiencies (Optional):</strong> Herbalist kit</li>
+				<li><strong>Languages (Optional):</strong>Druidic</li>
+				<li><strong>Equipment:</strong>Sickle (obsidian if the character is not allowed to usse metal), 2 candles, Scroll case with 5 pieces parchment or a notebook, common clothes, component pouch, herbalist kit, 2 vials (1 with either antitoxin or healing potion).</li>
+			</ul>
+			<div element="ID_NOVALORE_BACKGROUND_HERBALIST_FEATURE_A_DASH_OF_THIS_A_DOLLOP_OF_THAT" />
+		</description>
+		<rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_NATURE" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_SURVIVAL" />
+			<select type="Proficiency" name="Tool Proficiency (Herbalist)" supports="Tool" optional="true"/>
+			<select type="Language" name="Druidic" optional="true" />
+			<grant type="Background Feature" id="ID_NOVALORE_BACKGROUND_HERBALIST_FEATURE_A_DASH_OF_THIS_A_DOLLOP_OF_THAT" />
+			<select name="Personality Trait" type="List">
+				<item id="1">I saved people during a famine/draught.</item>
+				<item id="2">I offered refuge to wounded animals.</item>
+				<item id="3">A celestial, fey, or similar creature gave me knwoledge on rare herbs.</item></select>
+			<select name="Ideal" type="List">
+				<item id="1">I like animals and plants more than people. I'm always ready to poison someone to protect nature.</item>
+				<item id="2">I don't like starting fights, i always think twice before attacking anybody.</item>
+				<item id="3">I never underestimate others, all people have hidden talents.</item>
+				<item id="4">People are just another type of animal, that's why I don't consider myself superior to other animals.</item>
+				<item id="5">I always listen to opinions of others, even if they don't know what they're talking about.</item>
+			</select>
+			<select name="Bond" type="List">
+				<item id="1">Tribe is everything to me.</item>
+				<item id="2">My family made me into who i am today, i will always be thankful to them.</item>
+				<item id="3">I consider the laws of nature the only real authority.</item>
+				<item id="4">I lost everybody who i cared about... now i'm trying to find anybody who will care about me.</item>
+				<item id="5">I'm looking for new faces and stories, everybody have something to tell.</item>
+				<item id="6">I want everyone to know my name and for my legacy to live on even hundred years later.</item>
+			</select>
+			<select name="Flaw" type="List">
+				<item id="1">I think bad omens can predict future, i always believe them.</item>
+				<item id="2">I'm the worst at navigation, if people say "go right", i will go left.</item>
+				<item id="3">I sleep like a dead man, nothing can wake me up... sometimes i think even getting stabbed will not awake me.</item>
+				<item id="4">I easily distract and lose focus on the mission.</item>
+				<item id="5">I don't care about other people's feelings, it's their problem not mine.</item>
+				<item id="6">I vastly underestimate value (both monetary and emotional) of any unique and/or interesting item. </item>
+			</select>
+		</rules>
+	</element>
+	<element name="Feature: A Dash of This, a Dollop of That" type="Background Feature" source="Full Moon Storytelling" id="ID_NOVALORE_BACKGROUND_HERBALIST_FEATURE_A_DASH_OF_THIS_A_DOLLOP_OF_THAT">
+		<description>
+			<p>Using a short rest, you can always find the various fungus, plants, and whatnot needed to make antitoxin, healing potions, poison, or coffee-like substances.</p>
+			<p>Your recipes manifest as salves, poultices, potions, pills, or any other way to deliver the ingredients. Any of your recipes take just a Bonus Action to use as they are more potent than typical.</p>
+			</description>
+		<sheet alt="A Dash of This, a Dollop of That">
+			<description>Concoct a potion/salve with whatever is at hand (if the environment allows)</description>
+		</sheet>
+	</element>
+</elements>
