@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<index>
+	<info>
+		<name>Novalore homebrews</name>
+		<update version="1.0.0">
+			<file name="user-novalore.index" url="https://raw.githubusercontent.com/novalore/aurora/master/user-novalore.index" />
+		</update>
+	</info>
+	<files>
+		<file name="herbalist.xml" url="https://raw.githubusercontent.com/novalore/aurora/master/user-novalore/backgrounds/herbalist.xml" />
+	</files>
+</index>
