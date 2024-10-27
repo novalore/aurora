@@ -1,7 +1,7 @@
 # repositoryname
-additional content to extend [Aurora](https://aurorabuilder.com/), by yourname
+additional content to extend [Aurora](https://aurorabuilder.com/), by novalore
 
-index url: https://raw.githubusercontent.com/yourgithubaccount/repositoryname/master/user-yourname.index
+index url: https://raw.githubusercontent.com/novalore/aurora/master/user-novalore.index
 
 ---
 
