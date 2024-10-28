@@ -3,31 +3,31 @@
 	<info>
 		<name>Herbalist Background</name>
 		<description>Basic background for a character interested in herbs and herbal remedies</description>
-		<update version="0.0.3">
+		<update version="0.0.4">
 			<file name="herbalist-background.xml" url="https://raw.githubusercontent.com/novalore/aurora/master/user-novalore/backgrounds/herbalist-background.xml" />
 		</update>
 	</info>
 
 	<element name="Herbalist" type="Background" source="https://fullmoonstorytelling.com/" id="ID_NOVALORE_BACKGROUND_HERBALIST">
 		<description>
-			<p>Picking herbs from a backyard garden, a hot house, or a forest outside of town the herbalist collects natural items that aid and harm. An herbalist can heal, poison, invigorate. They know the powers of plants and fungi to change how humanoids and beasts experience the world.</p>
+			<p>Picking herbs from a backyard garden, a hot house, or a forest outside of town the herbalist collects natural items that aid and harm. An herbalist can heal, poison, invigorate. They know the powers of plants and fungi to change how humanoids and beasts experience the world. They learn Druidic language even if they shouldn't be allowed.</p>
 			<ul>
 				<li><strong>Skill Proficiencies:</strong> Nature, Survival</li>
-				<li><strong>Tool Proficiencies (Optional):</strong> Herbalist kit</li>
-				<li><strong>Languages:</strong> Druidic</li>
+				<li><strong>Tool Proficiencies:</strong> Herbalism kit</li>
+				<li><strong>Languages:</strong> Druidic </li>
 				<li><strong>Equipment:</strong> Sickle (obsidian if the character is not allowed to usse metal), 2 candles, Scroll case with 5 pieces parchment or a notebook, common clothes, component pouch, herbalist kit, 2 vials (1 with either antitoxin or healing potion).</li>
 			</ul>
 			<div element="ID_NOVALORE_BACKGROUND_HERBALIST_FEATURE_A_DASH" />
 		</description>
 		<setters>
-			<set name="short">Nature, Survival, Herbalist Kit</set>
+			<set name="short">Nature, Survival, Herbalism Kit</set>
 		</setters>
 		<rules>
 			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_NATURE" />
 			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_SURVIVAL" />
 			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_MEDICINE" optional="true"/>
-			<select type="Proficiency" name="Tool Proficiency (Herbalist)" supports="Tool" optional="true"/>
-			<select type="Language" name="Druidic" id="ID_LANGUAGE_DRUIDIC"/>
+			<grant type="Proficiency" id="ID_PROFICIENCY_TOOL_PROFICIENCY_HERBALISM_KIT" />
+			<grant type="Language" name="Language (Herbalist)" id="ID_LANGUAGE_DRUIDIC"/>
 			<grant type="Background Feature" id="ID_NOVALORE_BACKGROUND_HERBALIST_FEATURE_A_DASH" />
 			<select name="Personality Trait" type="List">
 				<item id="1">I saved people during a famine/draught.</item>
