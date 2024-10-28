@@ -3,7 +3,7 @@
 	<info>
 		<name>Herbalist Background</name>
 		<description>Background for a character interested in herbs and herbal remedies</description>
-		<update version="0.0.8">
+		<update version="0.0.9">
 			<file name="herbalist-background.xml" url="https://raw.githubusercontent.com/novalore/aurora/master/user-novalore/backgrounds/herbalist-background.xml" />
 		</update>
 	</info>
@@ -70,7 +70,7 @@
 			<p>The resulting poultice has a shelf life of only 8h unless bottled, if bottled it stays effective for maximum 48h.</p>
 			<ul>
 				<li><strong>Antitoxin:</strong> A creature that ingests the poultice gains advantage on saving throws against poison for 1 hour.</li>
-				<li><strong>Lesser healing:</strong> If applied on a wound it stops bleeding and the character recovers 1 HP immediately; if ingested the character will recover maximum from the next hit die rolled within 1 minute.</strong></li>
+				<li><strong>Lesser healing:</strong> If applied on a wound it stops bleeding and the character recovers 1 HP immediately; if ingested the character will recover maximum from the next hit die rolled within 1 minute.</li>
 				<li><strong>Weak poison:</strong> A creature that touches or ingests the poultice must make a DC 10 Constitution saving throw or take 1d4 poison damage. On each successive failed save, the character takes 1 poison damage. After 1 successful save, the poison effect ends. This poison can be applied on weapons, the effect of the poison apply to targets hit with the weapon in the following ten rounds.</li>
 				<li><strong>Tranquilizer:</strong> A creature that ingests the poultice or is hit with a weapon tainted with it must make a DC 10 Constitution saving throw or suffer a -1 Dexterity point for 10 rounds, if the saving throw is failed by 5 or more, the creature will also have disadvantage on Constitution and Dexterity saving throws for 10 rounds.</li>
 				<li><strong>Energizer:</strong> Reduces one level of exhaustion for 1 hour.</li>
