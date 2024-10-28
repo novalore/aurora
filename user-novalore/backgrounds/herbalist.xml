@@ -3,12 +3,12 @@
 	<info>
 		<name>Herbalist Background</name>
 		<description>Background for a character interested in herbs and herbal remedies</description>
-		<update version="0.0.5">
+		<update version="0.0.6">
 			<file name="herbalist-background.xml" url="https://raw.githubusercontent.com/novalore/aurora/master/user-novalore/backgrounds/herbalist-background.xml" />
 		</update>
 	</info>
 
-	<element name="Herbalist" type="Background" id="ID_NOVALORE_BACKGROUND_HERBALIST">
+	<element name="Herbalist" type="Background" source="homebrew" id="ID_NOVALORE_BACKGROUND_HERBALIST">
 		<description>
 			<p>Picking herbs from a backyard garden, a hot house, or a forest outside of town the herbalist collects natural items that aid and harm. An herbalist can heal, poison, invigorate. They know the powers of plants and fungi to change how humanoids and beasts experience the world. They learn Druidic language even if they shouldn't be allowed.</p>
 			<ul>
