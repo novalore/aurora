@@ -3,14 +3,14 @@
 	<info>
 		<name>Herbalist Background</name>
 		<description>Background for a character interested in herbs and herbal remedies</description>
-		<update version="0.0.7">
+		<update version="0.0.8">
 			<file name="herbalist-background.xml" url="https://raw.githubusercontent.com/novalore/aurora/master/user-novalore/backgrounds/herbalist-background.xml" />
 		</update>
 	</info>
-
+<!-- Inspired originally by Full Moonn Storytelling, it got mixed with other sources and now is a full homebrew. I'm not sure about the background feature having options, maybe it should become an actual proficiency but for now we'll test this version. -->
 	<element name="Herbalist" type="Background" source="homebrew" id="ID_NOVALORE_BACKGROUND_HERBALIST">
 		<description>
-			<p>Picking herbs from a backyard garden, a hot house, or a forest outside of town the herbalist collects natural items that aid and harm. An herbalist can heal, poison, invigorate. They know the powers of plants and fungi to change how humanoids and beasts experience the world. They learn Druidic language even if they shouldn't be allowed.</p>
+			<p>Picking herbs from a backyard garden, a hot house, or a forest outside of town, the herbalist collects natural items that aid and harm. An herbalist can heal, poison, invigorate. They know the powers of plants and fungi to change how humanoids and beasts experience the world. They learn Druidic language even if they shouldn't be allowed.</p>
 			<ul>
 				<li><strong>Skill Proficiencies:</strong> Nature, Survival</li>
 				<li><strong>Tool Proficiencies:</strong> Herbalism kit</li>
@@ -66,18 +66,25 @@
 	<element name="Feature: A Dash of This, a Dollop of That" type="Background Feature" source="homebrew" id="ID_NOVALORE_BACKGROUND_HERBALIST_FEATURE_A_DASH">
 		<supports>Background Feature</supports>
 		<description>
-			<p>Once per long rest you can find the various fungi, plants, and natural ingredients needed to make a concoction that can be employed as antitoxin, lesser cure, weak poison, tranquilizer or energizer.</p>
+			<p>Once per long rest you can spend two hours to find the various fungi, plants, and natural ingredients needed to make a concoction that can be employed as antitoxin, lesser cure, weak poison, tranquilizer or energizer.</p>
 			<p>The resulting poultice has a shelf life of only 8h unless bottled, if bottled it stays effective for maximum 48h.</p>
 			<ul>
-				<li><strong>Antitoxin:</strong>A creature that ingests the poultice gains advantage on saving throws against poison for 1 hour.</li>
-				<li><strong>Lesser healing: if applied on a wound it stops bleeding and the character recovers 1 HP immediately; if ingested the character will recover maximum from the next hit die rolled within 1 minute.</strong></li>
-				<li><strong>Weak poison:</strong>A creature that touches or ingests the poultice must make a DC 10 Constitution saving throw or take 1d4 poison damage. On each successive failed save, the character takes 1 poison damage. After 1 successful save, the poison effect ends. This poison can be applied on weapons, the effect of the poison apply to targets hit with the weapon in the following ten rounds.</li>
-				<li><strong>Tranquilizer:</strong>A creature that ingests the poultice or is hit with a weapon tainted with it must make a DC 10 Constitution saving throw or suffer a -1 Dexterity point for 10 rounds, if the saving throw is failed by 5 or more, the creature will also have disadvantage on Constitution and Dexterity saving throws for 10 rounds.</li>
-				<li><strong>Energizer:</strong>Reduces one level of exhaustion for 1 hour.</li>
+				<li><strong>Antitoxin:</strong> A creature that ingests the poultice gains advantage on saving throws against poison for 1 hour.</li>
+				<li><strong>Lesser healing:</strong> If applied on a wound it stops bleeding and the character recovers 1 HP immediately; if ingested the character will recover maximum from the next hit die rolled within 1 minute.</strong></li>
+				<li><strong>Weak poison:</strong> A creature that touches or ingests the poultice must make a DC 10 Constitution saving throw or take 1d4 poison damage. On each successive failed save, the character takes 1 poison damage. After 1 successful save, the poison effect ends. This poison can be applied on weapons, the effect of the poison apply to targets hit with the weapon in the following ten rounds.</li>
+				<li><strong>Tranquilizer:</strong> A creature that ingests the poultice or is hit with a weapon tainted with it must make a DC 10 Constitution saving throw or suffer a -1 Dexterity point for 10 rounds, if the saving throw is failed by 5 or more, the creature will also have disadvantage on Constitution and Dexterity saving throws for 10 rounds.</li>
+				<li><strong>Energizer:</strong> Reduces one level of exhaustion for 1 hour.</li>
 			</ul>
 			</description>
 		<sheet alt="A Dash of This, a Dollop of That">
-			<description usage="1/Long Rest">You can find the various fungi, plants, and natural ingredients needed to make a concoction that can be employed as antitoxin, lesser cure, weak poison, tranquilizer or energizer. The resulting poultice has a shelf life of only 8h unless bottled, if bottled it stays effective for maximum 48h.</description>
+			<description usage="1/Long Rest">You can find the various fungi, plants, and natural ingredients needed to make a concoction that can be employed as antitoxin, lesser cure, weak poison, tranquilizer or energizer.
+				The resulting poultice has a shelf life of only 8h unless bottled, if bottled it stays effective for maximum 48h.
+				Antitoxin: A creature that ingests the poultice gains advantage on saving throws against poison for 1 hour.
+				Lesser healing: If applied on a wound it stops bleeding and the character recovers 1 HP immediately; if ingested the character will recover maximum from the next hit die rolled within 1 minute.
+				Weak poison: A creature that touches or ingests the poultice must make a DC 10 Constitution saving throw or take 1d4 poison damage. On each successive failed save, the character takes 1 poison damage. After 1 successful save, the poison effect ends. This poison can be applied on weapons, the effect of the poison apply to targets hit with the weapon in the following ten rounds.
+				Tranquilizer: A creature that ingests the poultice or is hit with a weapon tainted with it must make a DC 10 Constitution saving throw or suffer a -1 Dexterity point for 10 rounds, if the saving throw is failed by 5 or more, the creature will also have disadvantage on Constitution and Dexterity saving throws for 10 rounds.
+				Energizer: Reduces one level of exhaustion for 1 hour.
+			</description>
 		</sheet>
 	</element>
 </elements>
