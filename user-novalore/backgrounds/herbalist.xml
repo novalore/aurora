@@ -3,7 +3,7 @@
 	<info>
 		<name>Herbalist Background</name>
 		<description>Background for a character interested in herbs and herbal remedies</description>
-		<update version="0.0.6">
+		<update version="0.0.7">
 			<file name="herbalist-background.xml" url="https://raw.githubusercontent.com/novalore/aurora/master/user-novalore/backgrounds/herbalist-background.xml" />
 		</update>
 	</info>
@@ -63,7 +63,7 @@
 			</select>
 		</rules>
 	</element>
-	<element name="Feature: A Dash of This, a Dollop of That" type="Background Feature" id="ID_NOVALORE_BACKGROUND_HERBALIST_FEATURE_A_DASH">
+	<element name="Feature: A Dash of This, a Dollop of That" type="Background Feature" source="homebrew" id="ID_NOVALORE_BACKGROUND_HERBALIST_FEATURE_A_DASH">
 		<supports>Background Feature</supports>
 		<description>
 			<p>Once per long rest you can find the various fungi, plants, and natural ingredients needed to make a concoction that can be employed as antitoxin, lesser cure, weak poison, tranquilizer or energizer.</p>
